@@ -2,6 +2,16 @@ import java.util.Calendar;
 
 public class User {
     public static void main(String[] args) {
+
+
+        //ram => i = 0
+        // console => 1
+
+        int i = 0;
+        System.out.println(i + 1);  //i++ , ++i , i+=1 , i=i+1
+
+
+
         //hello from java
 /*
         int i = 0;
