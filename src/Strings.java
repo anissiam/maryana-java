@@ -1,22 +1,38 @@
 public class Strings {
     public static void main(String[] args) {
-        String name = "anis";
+        String name = "anis";//array of char
         String lastName = "siam";
         int age = 30;
         String name1 = "AnIs";
         String name2 = new String("anis");
         String line = "hello my name is anis";
-        String st = "hello from java class";
+        String st = "hello from java class java class ";
+        String st1 = "hello from java class and my name is anis , anis is a good person and he is handsome , anis is a java developer ";
+
+
+        System.out.println(st.startsWith("he"));//تبحث في بداية الجملة
+        System.out.println(st.endsWith("class "));//تبحث في نهاية الجملة
+
+/*
+replace ,
+تستبدل كلمة بكلمة
+ */
+       System.out.println(st1.replace("anis" , "Maryna"));
+        System.out.println(st.replace("java", "C++"));
+        System.out.println(st.replace("java", "C++"));
+        System.out.println(st.replace(" ", ","));
+
+
+        System.out.println(line.substring(3));//ترجع جزء من النص من الموقع 3
+        System.out.println(line.substring(3,10));//ترجع جزء من النص من الموقع 3 الى 10 ولكن 10 ليس مدخل
+
+        System.out.println(st.indexOf("java"));//تاخد نص وترجع موقع وجوده
+        System.out.println(st.lastIndexOf("java"));//تاخد نص وترجع اخر موقع وجوده
+        System.out.println(st.charAt(0));//تاخد int  وترجع الحرف في هذا الموقع
+
 
         System.out.println(name.equals(name1));
         System.out.println(name.equalsIgnoreCase(name1));//مقارنة مع تجاهل الحروف الكبيرة والصغيرة
-
-        //talal  // Talal  //TALAL
-        //talal
-
-
-        //talal
-        //talal//TALAL
 
 
         System.out.println(st.toUpperCase());
@@ -43,6 +59,8 @@ public class Strings {
         System.out.println(name.trim()); //تحذف المسافات من البداية والنهاية
         String newString  = name.trim();
         System.out.println(newString);
+
+
 
 
 
