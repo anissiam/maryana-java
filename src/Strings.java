@@ -1,5 +1,15 @@
 public class Strings {
     public static void main(String[] args) {
+
+        String s1 = "anis";
+        String s2 = "siam";
+        System.out.println((s1 + s2).length());
+       /* String re = s1.concat(s2);
+        System.out.println(re.length());*/
+
+
+
+
         String name = "anis";//array of char
         String lastName = "siam";
         int age = 30;
